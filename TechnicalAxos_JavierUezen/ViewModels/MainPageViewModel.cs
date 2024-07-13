@@ -7,7 +7,7 @@ using TechnicalAxos_JavierUezen.Services;
 
 namespace TechnicalAxos_JavierUezen.ViewModels
 {
-    public partial class MainPageViewModel : ObservableObject, INotifyPropertyChanged
+    public partial class MainPageViewModel : ObservableObject
     {
         private ICountryService _countryService;
 

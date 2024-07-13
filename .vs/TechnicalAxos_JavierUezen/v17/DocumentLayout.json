@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|c:\\users\\javo\\source\\repos\\technicalaxos_javieruezen\\technicalaxos_javieruezen\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|solutionrelative:technicalaxos_javieruezen\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|c:\\users\\javo\\source\\repos\\technicalaxos_javieruezen\\technicalaxos_javieruezen\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|solutionrelative:technicalaxos_javieruezen\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|c:\\users\\javo\\source\\repos\\technicalaxos_javieruezen\\technicalaxos_javieruezen\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|solutionrelative:technicalaxos_javieruezen\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|c:\\users\\javo\\source\\repos\\technicalaxos_javieruezen\\technicalaxos_javieruezen\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|solutionrelative:technicalaxos_javieruezen\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|c:\\users\\javo\\source\\repos\\technicalaxos_javieruezen\\technicalaxos_javieruezen\\services\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|solutionrelative:technicalaxos_javieruezen\\services\\countryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|c:\\users\\javo\\source\\repos\\technicalaxos_javieruezen\\technicalaxos_javieruezen\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D3B6865-327D-49C0-81E5-9B3A8AF56109}|TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen.csproj|solutionrelative:technicalaxos_javieruezen\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 181,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\MainPage.xaml",
+              "RelativeDocumentMoniker": "TechnicalAxos_JavierUezen\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\MainPage.xaml",
+              "RelativeToolTip": "TechnicalAxos_JavierUezen\\MainPage.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAFEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-13T12:39:49.534Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "TechnicalAxos_JavierUezen\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\MainPage.xaml.cs",
+              "RelativeToolTip": "TechnicalAxos_JavierUezen\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T12:35:51.508Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\ViewModels\\MainPageViewModel.cs",
+              "RelativeDocumentMoniker": "TechnicalAxos_JavierUezen\\ViewModels\\MainPageViewModel.cs",
+              "ToolTip": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\ViewModels\\MainPageViewModel.cs",
+              "RelativeToolTip": "TechnicalAxos_JavierUezen\\ViewModels\\MainPageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T12:39:40.284Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "TechnicalAxos_JavierUezen\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "TechnicalAxos_JavierUezen\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T16:09:39.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CountryService.cs",
+              "DocumentMoniker": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\Services\\CountryService.cs",
+              "RelativeDocumentMoniker": "TechnicalAxos_JavierUezen\\Services\\CountryService.cs",
+              "ToolTip": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\Services\\CountryService.cs",
+              "RelativeToolTip": "TechnicalAxos_JavierUezen\\Services\\CountryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T14:20:55.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "TechnicalAxos_JavierUezen\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Javo\\source\\repos\\TechnicalAxos_JavierUezen\\TechnicalAxos_JavierUezen\\MauiProgram.cs",
+              "RelativeToolTip": "TechnicalAxos_JavierUezen\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T12:35:59.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 322,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 97,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

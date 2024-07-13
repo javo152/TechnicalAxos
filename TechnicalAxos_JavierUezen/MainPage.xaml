@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="TechnicalAxos_JavierUezen.MainPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mct="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:model="clr-namespace:TechnicalAxos_JavierUezen.Models"
+             xmlns:viewModel="clr-namespace:TechnicalAxos_JavierUezen.ViewModels"
+             x:DataType="viewModel:MainPageViewModel">
+
+    <Grid Padding="30,10"
+          RowDefinitions="Auto,Auto,Auto,*"
+          RowSpacing="25">
+
+        <Label FontAttributes="Bold"
+               FontSize="Small"
+               HorizontalTextAlignment="Center"
+               SemanticProperties.HeadingLevel="Level1"
+               Text="{Binding PackageName}" />
+
+        <Image Grid.Row="1"
+               Aspect="AspectFit"
+               HeightRequest="160"
+               SemanticProperties.Description="dot net bot in a race car number eight"
+               Source="{Binding ImageSource}" />
+
+        <Button x:Name="pickImageBtn"
+                Grid.Row="2"
+                Command="{Binding PickImageCommand}"
+                HorizontalOptions="Fill"
+                SemanticProperties.Hint="Pick an image to replace the current one"
+                Text="Pick Image" />
+
+        <ScrollView Grid.Row="3"
+                    IsVisible="{Binding IsBusy, Converter={mct:InvertedBoolConverter}}">
+            <CollectionView ItemsSource="{Binding Countries}"
+                            SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:Country">
+                        <VerticalStackLayout Margin="0,10">
+                            <Label Margin="5"
+                                   LineBreakMode="NoWrap">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span FontAttributes="Bold"
+                                              Text="Common Name: " />
+                                        <Span Text="{Binding Name.Common, Mode=OneWay}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label Margin="5"
+                                   LineBreakMode="NoWrap">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span FontAttributes="Bold"
+                                              Text="Official Name: " />
+                                        <Span Text="{Binding Name.Official, Mode=OneWay}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label Margin="5"
+                                   LineBreakMode="NoWrap">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span FontAttributes="Bold"
+                                              Text="Region: " />
+                                        <Span Text="{Binding Region, Mode=OneWay}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                            <Label Margin="5"
+                                   LineBreakMode="NoWrap">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span FontAttributes="Bold"
+                                              Text="Subregion: " />
+                                        <Span Text="{Binding Subregion, Mode=OneWay}" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+
+                        </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+
+        <ActivityIndicator Grid.Row="3"
+                           HeightRequest="40"
+                           IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}" />
+    </Grid>
+
+</ContentPage>

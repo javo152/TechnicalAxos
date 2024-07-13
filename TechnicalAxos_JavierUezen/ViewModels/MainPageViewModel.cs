@@ -1,7 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using TechnicalAxos_JavierUezen.Models;
 using TechnicalAxos_JavierUezen.Services;
 
@@ -20,7 +19,7 @@ namespace TechnicalAxos_JavierUezen.ViewModels
         string packageName;
 
         [ObservableProperty]
-        ImageSource imageSource;
+        ImageSource? imageSource;
 
         public ObservableCollection<Country> Countries { get; } = new();
 
@@ -30,30 +29,24 @@ namespace TechnicalAxos_JavierUezen.ViewModels
         {
             _countryService = countryService;
 
-            PackageName = AppInfo.Current.PackageName;
+            PackageName = GetBundlePackageName();
             ImageSource = "https://random.dog/af70ad75-24af-4518-bf03-fec4a997004c.jpg";
-
-            Task.Run(GetCountries);
         }
 
         [RelayCommand]
         private async Task PickImage()
         {
-            var imageResult = await FilePicker.PickAsync(new PickOptions
+            try
             {
-                FileTypes = FilePickerFileType.Images,
-                PickerTitle = "Select an image"
-            });
-
-            if (imageResult != null)
-            {
-                var stream = await imageResult.OpenReadAsync();
-                ImageSource = ImageSource.FromStream(() => stream);
+                ImageSource = await PickLocalImage();
             }
-
-            OnPropertyChanged(nameof(ImageSource));
+            catch (Exception ex)
+            {
+                await Shell.Current.DisplayAlert("Error", ex.Message, "Accept");
+            }
         }
 
+        [RelayCommand]
         private async Task GetCountries()
         {
             try
@@ -74,7 +67,28 @@ namespace TechnicalAxos_JavierUezen.ViewModels
             {
                 IsBusy = false;
             }
+        }
 
+        protected virtual string GetBundlePackageName()
+        {
+            return AppInfo.Current.PackageName;
+        }
+
+        protected virtual async Task<ImageSource?> PickLocalImage()
+        {
+            var imageResult = await FilePicker.PickAsync(new PickOptions
+            {
+                FileTypes = FilePickerFileType.Images,
+                PickerTitle = "Select an image"
+            });
+
+            if (imageResult != null)
+            {
+                var stream = await imageResult.OpenReadAsync();
+                return ImageSource.FromStream(() => stream);
+            }
+
+            return null;
         }
 
     }
